@@ -60,3 +60,8 @@ def hola(nombre, apellido="Feliz"):
 
 hola("Ivette", "Nobiltá")
 hola("Chanchito")
+
+# Si por ejemplo, muchas líneas de código más adelante, no recuerdo el orden de los
+# argumentos en la función(necesariamente vamos a tener que nombrar todos los argumentos):
+
+hola(apellido="Schurmann", nombre="Nicolas")
